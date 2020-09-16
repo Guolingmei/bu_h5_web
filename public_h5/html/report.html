@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="../css/wanted-details.css">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/public.js"></script>
+    <title>海南公安局</title>
+</head>
+
+<body>
+    <div class="main-report">
+        <form id="J-form">
+            <p class="form-title">线索描述：</p>
+            <textarea class="input-size" name="describe"></textarea>
+            <p class="form-title">现场图片：</p>
+            <!-- 要将父布局的position设置为relative，父布局将无法包裹input -->
+            <div>
+                <!-- 隐藏input -->
+                <!-- 只接受图片格式 -->
+                <input id="filed" style="display: none;"
+                    type="file" accept="image/*" multiple="multiple" />
+                <!-- 自定义按钮效果 -->
+                <div style="text-align: top" class="icon" id="upload"><span class="icon-size">+</span></div>
+            </div>
+            <div id="img-box">
+            </div>
+            <p class="form-title">现场视频：</p>
+            <div>
+                <input id="video" style="display: none;"
+                    type="file" accept="video/*" multiple="multiple" />
+                <div style="text-align: top" class="icon" id="upload-video"><span class="icon-size">+</span></div>
+            </div>
+            <div id="video-box">
+            </div>
+            <label for="time">发现时间：</label>
+            <input type="text" class="inputs" id="time" name="time"><br>
+            <label for="position">所在位置：</label>
+            <input type="text" class="inputs" id="position" name="position">
+            <div class="button-align" id="js-submit"><button class="button report-button " type="submit">提交</button>
+            </div>
+            <p class="remark">您的个人信息及您所提供的情况，公安机关将严格保密。</p>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

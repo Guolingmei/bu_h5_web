@@ -1,0 +1,115 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic; /*处理图片失真问题*/
+}
+.main-goip {
+  padding: 0.4rem 0.3rem;
+}
+.main-goip p {
+  font-size: 0.2rem;
+  color: #333333;
+  line-height: 0.28rem;
+  margin-bottom: 0.2rem;
+  text-align: justify;
+}
+.main-goip .title-goip {
+  font-size: 0.24rem;
+  color: #010101;
+  line-height: 0.46rem;
+  margin-bottom: 0.22rem;
+}
+.main-goip .photo {
+  text-align: center;
+  font-size: 0;
+  margin: 0.32rem 0;
+}
+.main-goip .photo img {
+  display: inline-block;
+  max-width: 100%;
+}

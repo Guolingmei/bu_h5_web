@@ -1,0 +1,96 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+dl, ol, ul, dd, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+} 
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic/*处理图片失真问题*/
+}
+body{
+    background-color: #EDEDED;
+}
+.home{
+    padding: 0.4rem 0.3rem;
+    font-family: PingFang SC;
+}
+li{
+    margin-bottom: 0.4rem;
+}
+.time{
+    font-size: 0.2rem;
+    color: #666;
+    margin-bottom: 0.16rem;
+}
+.main{
+    background-color: #fff;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    overflow: hidden;
+
+}
+.main .content video{
+    width: 100%;
+    object-fit: fill;
+    vertical-align: top;
+}
+.main .content img{
+    width: 100%;
+}
+.main .detail{
+    padding: 0.21rem 0.24rem ;
+}
+.detail div{
+    font-size: 0.24rem ;  
+    color: #010101;
+}
+.detail p{
+    color: #666;
+    font-size: 0.2rem;
+    line-height: 0.28rem;
+    margin-top: 0.1rem;
+    text-align: justify;
+}
+.message{
+    width:1.32rem;
+    height: 0.4rem;
+    float: right;
+    font-size: 0.24rem;
+    background-color:#9EEA6A;
+    border-radius: 0.01rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.select{
+    margin-top: 0.12rem;
+    color:#017EFF;
+    font-size: 0.22rem;
+}
+.select span{
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin-right: 0.27rem;
+    padding:0 0.1rem;
+}
+/*出现*/
+.is_show{
+    display: block;
+}
+.not_show{
+    display: none;
+}

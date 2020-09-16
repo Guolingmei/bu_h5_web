@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>本来生活</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        font-size: 14px;
+      }
+
+      body {
+        background-color: #ededed;
+        padding-bottom: 6vh;
+      }
+
+      .box img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .btn-wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 1vh 5.8vw;
+      }
+
+      .btn-wrap li {
+        list-style: none;
+        color: #017eff;
+        border-radius: 10px;
+        background: #ffffff;
+        padding: 0 1.8vw;
+      }
+
+      .box-item-title {
+        text-align: right;
+        padding: 3vh 6vw;
+      }
+
+      .box-item-title span {
+        color: #333333;
+        padding: 0.5vh 1.8vw;
+        background-color: #9eea6a;
+        border-radius: 2px;
+      }
+      #newOffers,
+      #mooncake,
+      #flower {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="box-item" style="margin-top: 1.8vh">
+        <img width="100%" src="./images/index/1.png" alt="" />
+        <ul class="btn-wrap">
+          <li class="btn">这有优惠</li>
+          <li class="btn">客服中心</li>
+          <li class="btn">当季水果</li>
+          <li id="newOffersBtn" class="btn">新人专享</li>
+        </ul>
+      </div>
+      <div id="newOffers" class="box-item">
+        <div class="box-item-title"><span>新人专享</span></div>
+        <a href="./newOffers1.html">
+          <img width="100%" src="./images/index/2.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">当季水果</li>
+          <li class="btn">客服中心</li>
+          <li class="btn">超值推荐</li>
+          <li id="mooncakeBtn" class="btn">礼遇中秋</li>
+        </ul>
+      </div>
+      <div id="mooncake" class="box-item">
+        <div class="box-item-title"><span>礼遇中秋</span></div>
+        <a href="./mooncakeDetails.html">
+          <img width="100%" src="./images/index/3.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">休闲食品</li>
+          <li class="btn">送货上门</li>
+          <li class="btn">礼品礼盒</li>
+          <li id="flowerBtn" class="btn">鲜花花艺</li>
+        </ul>
+      </div>
+      <div id="flower" class="box-item">
+        <div class="box-item-title"><span>鲜花花艺</span></div>
+        <a href="./flower.html">
+          <img width="100%" src="./images/index/4.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">当季水果</li>
+          <li class="btn">扶贫助农</li>
+          <li class="btn">送货上门</li>
+          <li class="btn">品质投诉</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script>
+      (function ($, d, w) {
+        $(d).ready(function () {
+          $("#newOffersBtn").on("click", function (e) {
+            $("#newOffers").show();
+          });
+          $("#mooncakeBtn").on("click", function (e) {
+            $("#mooncake").show();
+          });
+          $("#flowerBtn").on("click", function (e) {
+            $("#flower").show();
+          });
+        });
+      })(Zepto, document, window);
+    </script>
+  </body>
+</html>

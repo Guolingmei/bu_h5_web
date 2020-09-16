@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+dl,
+ol,
+ul,
+dd,
+li {
+  list-style-type: none;
+}
+
+.announce-content .bg-color {
+  background: #0a44fc;
+  text-align: center;
+  margin: 0.4rem 0.31rem;
+  position: relative;
+}
+
+.bg-color::before {
+  content: "";
+  position: absolute;
+  top: 0.18rem;
+  right: 0.11rem;
+  bottom: 0.17rem;
+  left: 0.17rem;
+  border: 2px solid #f5f5f5;
+}
+
+.announce-content .bg-color .main-content {
+  padding: 0.18rem 0.11rem 0.17rem 0.17rem;
+}
+
+.announce-content .bg-color .main-content .boundary{
+    padding: 0.08rem 0.16rem 0.19rem 0.17rem;
+}
+.announce-content .bg-color .main-content img {
+  width: 1.27rem;
+  height: 1.17rem;
+  vertical-align: top;
+}
+
+.announce-content .bg-color .main-content .main-title {
+  font-size: 0.24rem;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 0.06rem;
+}
+
+.announce-content .bg-color .main-content p {
+  font-size: 0.2rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 0.24rem;
+  text-align: left;
+  text-indent: 2em;
+  margin-top: 0.27rem;
+}
+
+.announce-content .bg-color .main-content .none {
+  margin: 0;
+}
+
+.announce-content .bg-color .main-content .photo-size {
+  width: 3.43rem;
+  height: 1.98rem;
+  margin-top: 0.53rem;
+}
+
+.announce-content .bg-color .main-content .signature1 {
+  text-align: right;
+  margin: 0.17rem 0.06rem 0 0;
+}
+
+.announce-content .bg-color .main-content .signature2 {
+  text-align: right;
+  margin: 0 0.06rem 0.19rem 0;
+}
+
+.announce-content .button {
+  text-align: center;
+  color: #ffffff;
+  width: 3.68rem;
+  line-height: 0.68rem;
+  background: #007aff;
+  border-radius: 0.02rem;
+  margin: 0.4rem 1.41rem 0 1.33rem;
+  font-family: Alibaba PuHuiTi;
+  font-size: 0.33rem;
+  font-weight: 400;
+}
+
+.main-report {
+  background-color: #e6e6e6;
+  font-size: 0.24rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #007aff;
+  line-height: 0.46rem;
+  padding: 0.4rem 0.31rem 0.81rem 0.31rem;
+}
+
+.main-report .form-title {
+  padding-left: 0.09rem;
+}
+
+.main-report .input-size {
+  width: 5.7rem;
+  height: 3.07rem;
+  margin: 0.2rem 0 0.4rem 0;
+}
+
+.main-report .icon {
+  text-align: center;
+  position: relative;
+  margin: 0.2rem 0 0.4rem 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #ffffff;
+  border: 1px solid #a2a1a6;
+}
+
+.main-report .icon .icon-size {
+  line-height: 1.6rem;
+  font-size: 0.66rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  opacity: 0.5;
+}
+
+.main-report .inputs {
+  width: 3.86rem;
+  height: 0.36rem;
+  border: 0.01rem solid #b1b1b1;
+}
+
+.main-report .button-align {
+  text-align: center;
+  padding: 1.26rem 0 0.17rem 0;
+}
+.main-report .report-button {
+  text-align: center;
+  color: #ffffff;
+  width: 3.68rem;
+  line-height: 0.68rem;
+  background: #007aff;
+  border-radius: 0.02rem;
+  font-family: Alibaba PuHuiTi;
+  font-size: 0.33rem;
+  font-weight: 400;
+}
+
+.main-report .remark {
+  text-align: center;
+  font-size: 0.16rem;
+  font-family: Alibaba PuHuiTi;
+  font-weight: 400;
+  color: #999999;
+}

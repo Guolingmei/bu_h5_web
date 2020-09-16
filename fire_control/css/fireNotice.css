@@ -1,0 +1,115 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main-notice {
+  padding: 0.4rem 0.3rem;
+}
+.main-notice p {
+  font-size: 0.2rem;
+  color: #343434;
+  line-height: 0.36rem;
+  text-align: justify;
+}
+.main-notice .title-notice {
+  font-size: 0.32rem;
+  font-weight: 500;
+  color: #343434;
+  line-height: 0.3rem;
+  margin-bottom: 0.38rem;
+  text-align: center;
+}
+.main-notice .bottom-notice {
+  width: 100%;
+  background: #EDEDED;
+  border-radius: 10px;
+  margin: 0.6rem 0;
+  padding: 0.12rem 0;
+}
+.main-notice .bottom-notice p {
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+  color: #343434;
+  text-align: center;
+}
