@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>招商银行</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        font-size: 14px;
+      }
+
+      body {
+        background-color: #ededed;
+        padding-bottom: 6vh;
+      }
+      .box {
+        padding: 0 6vw;
+      }
+
+      .box img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .btn-wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 1vh 0;
+      }
+
+      .btn-wrap li {
+        list-style: none;
+        color: #017eff;
+        border-radius: 10px;
+        background: #ffffff;
+        padding: 0 1.8vw;
+      }
+
+      .box-item-title {
+        text-align: right;
+        padding: 3vh 0vw;
+      }
+
+      .box-item-title span {
+        color: #333333;
+        padding: 0.5vh 1.8vw;
+        background-color: #9eea6a;
+        border-radius: 2px;
+      }
+      .box-item-time {
+        color: #343434;
+      }
+      #creditCard,
+      #activity {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="box-item" style="margin-top: 1.8vh">
+        <div class="box-item-time" style="margin: 4vh 0 2vh 0">
+          9-8 下午1:32
+        </div>
+        <img width="100%" src="./images/index/1.png" alt="" />
+      </div>
+      <div class="box-item">
+        <div class="box-item-time" style="margin: 4vh 0 2vh 0">
+          9-8 下午1:32
+        </div>
+        <a href="./financialDetails.html">
+          <img width="100%" src="./images/index/2.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">理财推荐</li>
+          <li class="btn">联系客服</li>
+          <li class="btn">社保查询</li>
+          <li id="creditCardBtn" class="btn">信用卡</li>
+        </ul>
+      </div>
+      <div id="creditCard" class="box-item">
+        <div class="box-item-title"><span>信用卡</span></div>
+        <div class="box-item-time" style="margin: 2vh 0 2vh 0">
+          9-8 下午1:32
+        </div>
+        <a href="./creditCard.html">
+          <img width="100%" src="./images/index/3.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">信用卡</li>
+          <li class="btn">社保查询</li>
+          <li class="btn">联系客服</li>
+          <li id="activityBtn" class="btn">最新活动</li>
+        </ul>
+      </div>
+      <div id="activity" class="box-item">
+        <div class="box-item-title"><span>最新活动</span></div>
+        <div class="box-item-time" style="margin: 2vh 0 2vh 0">
+          9-8 下午1:32
+        </div>
+        <a href="./activity.html">
+          <img width="100%" src="./images/index/4.png" alt="" />
+        </a>
+        <ul class="btn-wrap">
+          <li class="btn">理财推荐</li>
+          <li class="btn">信用卡</li>
+          <li class="btn">社保查询</li>
+          <li class="btn">联系客服</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script>
+      (function ($, d, w) {
+        $(d).ready(function () {
+          $("#creditCardBtn").on("click", function (e) {
+            $("#creditCard").show();
+          });
+          $("#activityBtn").on("click", function (e) {
+            $("#activity").show();
+          });
+        });
+      })(Zepto, document, window);
+    </script>
+  </body>
+</html>

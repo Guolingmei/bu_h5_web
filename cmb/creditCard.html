@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>招商银行</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        font-size: 14px;
+      }
+      body {
+        background-color: #ffffff;
+      }
+      .box img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/creditCard/1-1.png" alt="" width="100%" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/creditCard/1-2.png" alt="" width="100%" />
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <img src="./images/creditCard/2.png" alt="" width="100%" />
+      <img src="./images/creditCard/3.png" alt="" width="100%" />
+      <img src="./images/creditCard/4.png" alt="" width="100%" />
+      <img src="./images/creditCard/5.png" alt="" width="100%" />
+      <img src="./images/creditCard/6.png" alt="" width="100%" />
+      <img src="./images/creditCard/7.png" alt="" width="100%" />
+      <img id="submitBtn" src="./images/creditCard/8.png" alt="" width="100%" />
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1.5,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      (function ($, d, w) {
+        $(d).ready(function () {
+          $("#submitBtn").on("click", function (e) {
+            alert("提交成功");
+          });
+        });
+      })(Zepto, document, window);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.main-jx {
+  min-height: 100vh;
+  background-color: #EDEDED;
+  padding: 0.4rem 0.35rem 0.8rem 0.35rem;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+}
+.main-jx .jx-top {
+  width: 1.54rem;
+  height: 0.64rem;
+  float: right;
+  background-color: #0079E9;
+  border-radius: 0.16rem 0px 0.16rem 0.16rem;
+  text-align: center;
+  margin-bottom: 0.24rem;
+}
+.jx-top p {
+  font-size: 0.24rem;
+  color: #FFFFFF;
+  line-height: 0.64rem;
+}
+.clearfix {
+  clear: both;
+  font-size: 0.18rem;
+  color: #35414D;
+  line-height: 0.16rem;
+}
+.jx-bottom {
+  text-align: center;
+  font-size: 0;
+  margin-top: 0.14rem;
+}
+.jx-bottom img {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+}

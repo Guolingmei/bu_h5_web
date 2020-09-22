@@ -1,0 +1,10 @@
+.main-chosen {
+  background-color: #EDEDED;
+  text-align: center;
+  font-size: 0;
+  padding-top: 0.12rem;
+}
+.main-chosen img {
+  display: inline-block;
+  max-width: 100%;
+}

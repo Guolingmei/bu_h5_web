@@ -1,0 +1,132 @@
+/*开户*/
+.main{
+    background-color: #ededed;
+}
+.main img{
+    width: 100%;
+}
+.main footer{
+    margin-top: 0.12rem;
+    background-color:#fff ; 
+    text-align: center;
+}
+.main footer .btn{
+    display: inline-block;
+    font-size: 0.3rem; 
+    border-radius: 0.1rem;
+    background-color: #0079EA;
+    color: #fff;
+    margin: 0.32rem;
+    padding:0.3rem 1.45rem;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    display: none;
+}
+.introduce{
+    position: fixed;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.introduce img{
+    display: block;
+    width: 100%;
+}
+.submit{
+    display: flex;  
+    height: 0.6rem;
+    width: 100%;
+    opacity:0;
+    position:fixed;
+    bottom:0;
+}
+.submit span{
+    display: block;
+    width: 50%;
+}
+.submit a{
+    flex:1;
+}
+
+/*实名*/
+html,body{
+    height: 100%;
+    background-color: #F0EFF4;
+}
+.identify{
+    position: relative;
+    text-align: center;
+    margin-top: 0.17rem;
+}
+.identify .one{
+    width: 100%;
+}
+.identify .aside{
+    display: flex;
+}
+.identify .aside a{
+    width: 50%;
+}
+.identify .aside .click{
+    width: 100%;
+}
+.identify .aside span{
+    flex:1;
+}
+.identify .aside span img{
+    width: 100%;
+}
+.identify img{
+    width: 100%;
+}
+.identify footer{
+    text-align: center;
+    padding:0.3rem 2.5rem;
+    background-color: #0079EA;
+    margin: 1.42rem 0.4rem 0.36rem 0.4rem;
+    border-radius: 0.1rem;
+}
+.identify footer .btn{
+    display: inline-block;
+    font-size: 0.3rem; 
+    color: #fff; 
+}
+.success{
+    position: fixed;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    background-color: #fff;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0.5rem 0.48rem 0.28rem 0.48rem;
+    display: none;
+}
+.success img{
+    width: 100%;
+}
+.success p{
+    margin-top: 0.52rem;
+    font-size: 0.36rem;
+    color: #232727;
+}
+.success a{/*gai */
+    margin-top: 0.76rem;
+    display: block;    
+    font-size: 0.3rem;
+    padding: 0.3rem 0;
+    color:#fff ;
+    background: #0079EA;
+    border-radius: 0.1rem;
+}

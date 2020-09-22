@@ -1,0 +1,76 @@
+.main {
+  min-height: 100vh;
+  background-color: #e6e6e6;
+  padding: 0.53rem 0.35rem 1.16rem;
+}
+.main aside {
+  padding: 0.09rem 0.09rem;
+  margin-bottom: 0.25rem;
+  float: right;
+  background: #ffffff;
+  border-radius: 0.02rem;
+  font-size: 0.26rem;
+  font-family: Alibaba PuHuiTi;
+  font-weight: 400;
+  color: #333333;
+}
+.main section .content {
+  margin-bottom: 0.25rem;
+  border-radius: 0rem 0rem 0.1rem 0.1rem;
+}
+.main section img,
+video {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  vertical-align: bottom;
+  border-radius: 0.1rem 0.1rem 0rem 0rem;
+}
+.main section article {
+  background: #ffffff;
+  border-radius: 0rem 0rem 0.1rem 0.1rem;
+  padding: 0.14rem 0.25rem;
+}
+.main section article h3 {
+  font-size: 0.25rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #010101;
+  line-height: 0.45rem;
+}
+.main section article p {
+  font-size: 0.18rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 0.24rem;
+}
+.main section article .link {
+  text-align: center;
+}
+.main section article a {
+  font-size: 0.22rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #017eff;
+  line-height: 0.52rem;
+}
+.btn {
+  border: none;
+  font-size: 0.22rem;
+  font-family: Alibaba PuHuiTi;
+  font-weight: 400;
+  color: #017eff;
+  background-color: #ffffff;
+  border-radius: 0.1rem;
+  margin-right: 0.27rem;
+}
+footer {
+  width: 100%;
+  zoom: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0.35rem 0.35rem 0.5rem;
+  background-color: #e6e6e6;
+}

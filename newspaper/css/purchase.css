@@ -1,0 +1,17 @@
+.main-pur {
+  background-color: #F8F8F8;
+  text-align: center;
+  font-size: 0;
+}
+.main-pur img {
+  display: inline-block;
+  max-width: 100%;
+}
+.main-pur .bt1 {
+  margin-bottom: 0.13rem;
+}
+.main-pur img:last-child {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

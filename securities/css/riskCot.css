@@ -1,0 +1,10 @@
+.main-risk {
+  background-color: #EDEDED;
+  text-align: center;
+  font-size: 0;
+  padding-top: 0.12rem;
+}
+.main-risk img {
+  display: inline-block;
+  max-width: 100%;
+}

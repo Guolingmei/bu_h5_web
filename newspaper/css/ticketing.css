@@ -1,0 +1,14 @@
+.main-ticket {
+  background-color: #F8F8F8;
+}
+.main-ticket .photo {
+  text-align: center;
+  font-size: 0;
+}
+.main-ticket .photo img {
+  display: inline-block;
+  max-width: 100%;
+}
+.main-ticket .scenicSpot img{
+  margin-bottom: 0.13rem;
+}

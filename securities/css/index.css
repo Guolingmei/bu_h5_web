@@ -1,0 +1,68 @@
+.main {
+  min-height: 100vh;
+  background-color: #e6e6e6;
+  padding: 0.4rem 0.75rem 0.8rem 0.35rem;
+}
+.main aside {
+  font-size: 0.18rem;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #35414d;
+  line-height: 0.16rem;
+  margin-bottom: 0.15rem;
+}
+.main section {
+  margin-bottom: 0.42rem;
+  border-radius: 0rem 0rem 0.2rem 0.2rem;
+  position: relative;
+}
+.main section img,video,audio {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: fill;
+  vertical-align: bottom;
+  border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+.main section .pause{
+    width: 0.82rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.4rem;
+    margin-left: -0.4rem;
+}
+.main section article {
+  background: #ffffff;
+  border-radius: 0rem 0rem 0.2rem 0.2rem;
+  padding: 0.19rem 0.17rem 0.27rem 0.28rem;
+}
+.main section article h3 {
+  font-size: 0.24rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #35414d;
+  line-height: 0.36rem;
+}
+.main section article p {
+  font-size: 0.22rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #35414d;
+  line-height: 0.36rem;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid #487fe7;
+  border-radius: 0.24rem;
+  font-size: 0.2rem;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #0076ec;
+  background-color: #ffffff;
+  padding: 0.15rem 0.2rem;
+  margin:0 0.15rem 0.1rem 0;
+}
+.btn:last-child{
+    margin-right: 0;
+}
